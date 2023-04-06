@@ -5,16 +5,18 @@ const Navbar = () => {
     <nav className="container display-f jc-sb">
       <div className="display-f ai-c">
         <span className="oval"></span>
-        <h1 className="logo-text">Designo</h1>
+        <a className="logo-text" href="/">
+          <h1 className="">Designo</h1>
+        </a>
       </div>
       <div>
-        <a className="nav-link font-h3 text-black" href="#">
+        <a className="nav-link font-h3 text-black" href="/about">
           Our Company
         </a>
-        <a className="nav-link font-h3 text-black" href="#">
+        <a className="nav-link font-h3 text-black" href="/locations">
           Locations
         </a>
-        <a className="nav-link font-h3 text-black" href="#">
+        <a className="nav-link font-h3 text-black" href="/contact">
           Contact
         </a>
       </div>

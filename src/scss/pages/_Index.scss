@@ -1,0 +1,14 @@
+.hero {
+  padding: 5rem;
+  height: 640px;
+  overflow: hidden;
+
+  &__text {
+    width: 50%;
+  }
+
+  &__img {
+    right: -50px;
+    bottom: -250px;
+  }
+}
