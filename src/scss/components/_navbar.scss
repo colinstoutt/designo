@@ -1,0 +1,38 @@
+nav {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.oval {
+  margin-right: 1rem;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background: conic-gradient(
+    from 90deg at 50% 50%,
+    rgba(231, 129, 107, 0.0001) 0deg,
+    #e7816b 359.74deg,
+    rgba(231, 129, 107, 0.0001) 360deg
+  );
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.logo-text {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #333136;
+}
+
+.nav-link {
+  margin-left: 2.5rem;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline 1px solid grey;
+  }
+}

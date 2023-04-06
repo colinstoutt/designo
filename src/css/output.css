@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=League+Spartan:wght@500&display=swap");
 .text-peach {
   color: #e7816b;
 }
@@ -95,6 +95,106 @@
   background-color: #1d1c1e;
 }
 
+.o-10 {
+  opacity: 0.1;
+}
+
+.o-20 {
+  opacity: 0.2;
+}
+
+.o-30 {
+  opacity: 0.3;
+}
+
+.o-40 {
+  opacity: 0.4;
+}
+
+.o-50 {
+  opacity: 0.5;
+}
+
+.o-60 {
+  opacity: 0.6;
+}
+
+.o-70 {
+  opacity: 0.7;
+}
+
+.o-80 {
+  opacity: 0.8;
+}
+
+.o-90 {
+  opacity: 0.9;
+}
+
+.o-100 {
+  opacity: 1;
+}
+
+.display-n {
+  display: none;
+}
+
+.display-b {
+  display: block;
+}
+
+.display-f {
+  display: flex;
+}
+
+.display-i {
+  display: inline;
+}
+
+.display-i-b {
+  display: inline-block;
+}
+
+.position-r {
+  position: relative;
+}
+
+.position-a {
+  position: absolute;
+}
+
+.jc-fs {
+  justify-content: flex-start;
+}
+
+.jc-fe {
+  justify-content: flex-end;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-sa {
+  justify-content: space-around;
+}
+
+.ai-fs {
+  align-items: flex-start;
+}
+
+.ai-fe {
+  align-items: flex-end;
+}
+
+.ai-c {
+  align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -186,6 +286,40 @@ video {
 .btn-on-light:hover {
   cursor: pointer;
   background-color: #ffad98;
+}
+
+nav {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.oval {
+  margin-right: 1rem;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  background: conic-gradient(from 90deg at 50% 50%, rgba(231, 129, 107, 0.0001) 0deg, #e7816b 359.74deg, rgba(231, 129, 107, 0.0001) 360deg);
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.logo-text {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #333136;
+}
+
+.nav-link {
+  margin-left: 2.5rem;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline 1px solid grey;
 }
 
 /*# sourceMappingURL=output.css.map */
