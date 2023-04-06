@@ -1,28 +1,55 @@
-// .circle {
-//   position: absolute;
-//   width: 640px;
-//   height: 640px;
-//   left: 1276px;
-//   top: 795px;
+.circle {
+  width: 640px;
+  height: 640px;
+  left: 1276px;
+  top: 795px;
 
-//   background: linear-gradient(
-//     90deg,
-//     rgba(93, 2, 2, 0.0001) 0%,
-//     rgba(93, 2, 2, 0.497569) 100%
-//   );
-//   mix-blend-mode: normal;
-//   opacity: 0.31;
-//   transform: matrix(0, -1, -1, 0, 0, 0);
-// }
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.31;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
 
-// .rectangle {
-//   position: absolute;
-//   width: 1006px;
-//   height: 594px;
-//   left: 0px;
-//   top: 0px;
-//   background-color: red;
-//   mix-blend-mode: normal;
-//   opacity: 0.5;
-//   border-radius: 297px 297px 297px 0px;
-// }
+.oval {
+  width: 640px;
+  height: 640px;
+  right: 0;
+  top: 0;
+
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.31;
+  transform: matrix(0, -1, -1, 0, 0, 0);
+}
+
+.rectangle {
+  width: 1006px;
+  height: 594px;
+  left: 0px;
+  top: 0px;
+  background-color: red;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  border-radius: 297px 297px 297px 0px;
+}
+
+.qualityOval {
+  width: 202px;
+  height: 202px;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.497569) 100%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  transform: matrix(0, 1, 1, 0, 0, 0);
+}

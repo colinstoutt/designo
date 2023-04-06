@@ -4,9 +4,8 @@ const Navbar = () => {
   return (
     <nav className="container display-f jc-sb">
       <div className="display-f ai-c">
-        <span className="oval"></span>
         <a className="logo-text" href="/">
-          <h1 className="">Designo</h1>
+          <img className="logo" src="https://i.imgur.com/cYqFcga.png" alt="" />
         </a>
       </div>
       <div>

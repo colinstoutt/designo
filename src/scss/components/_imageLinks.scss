@@ -1,0 +1,58 @@
+.image-links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 140px;
+
+  img {
+    filter: brightness(0.5);
+    transition: all 0.3s;
+
+    &:hover {
+      filter: brightness(0.1);
+    }
+  }
+  &__web {
+    height: 640px;
+    width: 100%;
+    text-align: center;
+  }
+  &__app {
+    width: 100%;
+    height: 308px;
+    text-align: center;
+  }
+  &__graphic {
+    width: 100%;
+    height: 308px;
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  &__link-text {
+    margin-top: 1rem;
+    letter-spacing: 2px;
+    width: 80%;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &:hover + img {
+      filter: brightness(0.1);
+    }
+
+    &-title {
+      font-size: 40px;
+      font-weight: 400;
+    }
+
+    &-cta {
+      font-size: 15px;
+      margin-top: 1rem;
+    }
+  }
+}
+.right-arrow-icon {
+  margin-top: 0.4rem;
+}

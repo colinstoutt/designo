@@ -1,4 +1,10 @@
 import React from "react";
+import WebDesignLink from "../components/WebDesignLink";
+import AppDesignLink from "../components/AppDesignLink";
+import GraphicDesignLink from "../components/GraphicDesignLink";
+import Passionate from "../components/Passionate";
+import Resourceful from "../components/Resourceful";
+import Friendly from "../components/Friendly";
 
 const Index = () => {
   return (
@@ -20,12 +26,48 @@ const Index = () => {
           src="https://i.imgur.com/vWXCC3f.png"
           alt="mobile phone"
         />
+        <div className="oval position-a"></div>
       </section>
-      <section className="page-grid">
-        <div className="row">
-          <div className="col">test</div>
-          <div className="col">test</div>
-          <div className="col">test</div>
+      <section className="image-links display-f">
+        <WebDesignLink />
+        <div>
+          <AppDesignLink />
+          <GraphicDesignLink />
+        </div>
+      </section>
+      <section className="qualities row">
+        <div className="qualities__col col">
+          <div className="index-svg">
+            <Passionate />
+          </div>
+          <h1 className="qualities__title font-h3">Passionate</h1>
+          <p className="qualities__body font-body">
+            Each project starts with an in-depth brand research to ensure we
+            only create products that serve a purpose. We merge art, design, and
+            technology into exciting new solutions.
+          </p>
+        </div>
+        <div className="qualities__col col">
+          <div className="index-svg">
+            <Resourceful />
+          </div>
+          <h1 className="qualities__title font-h3">Resourceful</h1>
+          <p className="qualities__body font-body">
+            Everything that we do has a strategic purpose. We use an agile
+            approach in all of our projects and value customer collaboration. It
+            guarantees superior results that fulfill our clients’ needs.
+          </p>
+        </div>
+        <div className="qualities__col col">
+          <div className="index-svg">
+            <Friendly />
+          </div>
+          <h1 className="qualities__title font-h3">Friendly</h1>
+          <p className="qualities__body font-body">
+            We are a group of enthusiastic folks who know how to put people
+            first. Our success depends on our customers, and we strive to give
+            them the best experience a company can provide.
+          </p>
         </div>
       </section>
     </main>

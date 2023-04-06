@@ -2,6 +2,7 @@
   padding: 5rem;
   height: 640px;
   overflow: hidden;
+  margin-bottom: 140px;
 
   &__text {
     width: 50%;
@@ -11,4 +12,27 @@
     right: -50px;
     bottom: -250px;
   }
+}
+.qualities {
+  text-align: center;
+
+  &__body {
+    width: 338px;
+  }
+
+  &__title {
+    margin-bottom: 2.5rem;
+  }
+}
+.index-svg {
+  margin: 0 0 3rem 65px;
+  width: 202px;
+  height: 202px;
+  border-radius: 50%;
+  background-color: rgba(241, 243, 245, 0.1);
+  background: linear-gradient(
+    45deg,
+    rgba(93, 2, 2, 0.0001) 0%,
+    rgba(93, 2, 2, 0.1) 100%
+  );
 }

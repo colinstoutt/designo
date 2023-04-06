@@ -1,0 +1,15 @@
+.footer {
+  background-color: $darkgrey;
+  height: 393px;
+  margin-top: 22rem;
+
+  &__cta {
+    height: 292px;
+    width: 1111px;
+    border-radius: $border-radius;
+    background-color: $peach;
+    top: -70px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
