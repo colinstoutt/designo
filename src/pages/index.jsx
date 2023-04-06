@@ -2,8 +2,8 @@ import React from "react";
 
 const Index = () => {
   return (
-    <main>
-      <section className="hero position-r container br bg-peach display-f ai-c">
+    <main className="container">
+      <section className="hero br bg-peach display-f ai-c position-r">
         <div className="hero__text">
           <h1 className="font-h1 text-white pb-2">
             Award-winning custom designs and digital branding solutions
@@ -20,6 +20,13 @@ const Index = () => {
           src="https://i.imgur.com/vWXCC3f.png"
           alt="mobile phone"
         />
+      </section>
+      <section className="page-grid">
+        <div className="row">
+          <div className="col">test</div>
+          <div className="col">test</div>
+          <div className="col">test</div>
+        </div>
       </section>
     </main>
   );
