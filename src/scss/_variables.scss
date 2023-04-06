@@ -1,28 +1,30 @@
 // container
-$base-container-width: 1110px;
-// spacing
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
-// borders
-$base-border-thickness: 1px;
-$base-border-radius: 8px;
-// box-shadow
-$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+$container: 1111px;
+
+// border-radius
+$border-radius: 8px;
+
 //font sizes
-$base-font-size: 1rem;
-$font-size-sm: $base-font-size * 0.75;
-$font-size-lg: $base-font-size * 1.5;
-$font-size-xl: $base-font-size * 2;
-$font-size-xxl: $base-font-size * 3;
+$font-body: 16px;
+$font-h1: 48px;
+$font-h2: 40px;
+$font-h3: 20px;
 
 // colors
+$peach: #e7816b;
+$lightpeach: #ffad98;
+$lightgrey: #f1f3f5;
+$darkgrey: #333136;
+$black: #1d1c1e;
+$white: white;
+
 $colors: (
-  "peach": #e7816b,
-  "lightpeach": #ffad98,
-  "lightgrey": #f1f3f5,
-  "darkgrey": #333136,
-  "black": #1d1c1e,
-  "white": white,
+  "peach": $peach,
+  "lightpeach": $lightpeach,
+  "lightgrey": $lightgrey,
+  "darkgrey": $darkgrey,
+  "white": $white,
+  "black": $black,
 );
 
 @each $key, $val in $colors {

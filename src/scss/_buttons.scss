@@ -1,0 +1,32 @@
+.btn-on-dark {
+  color: $black;
+  background-color: $white;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 21.68px;
+  letter-spacing: 1px;
+  padding: 1rem 1.5rem;
+  border-radius: $border-radius;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    color: $white;
+    background-color: $lightpeach;
+  }
+}
+
+.btn-on-light {
+  color: $white;
+  background-color: $peach;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 21.68px;
+  letter-spacing: 1px;
+  padding: 1rem 1.5rem;
+  border-radius: $border-radius;
+  border: none;
+  &:hover {
+    cursor: pointer;
+    background-color: $lightpeach;
+  }
+}
